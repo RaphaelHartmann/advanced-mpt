@@ -1,0 +1,32 @@
+
+# UNF [ false , true ]
+Fn*Ku+(1-Fn)*Ku+(1-Fn)*(1-Ku)*(1-g)
+Fn*(1-Ku)+(1-Fn)*(1-Ku)*g
+
+# UNT [ false , true ]
+(1-Fn)*(1-Ku)*(1-g)
+Fn*Ku+Fn*(1-Ku)+(1-Fn)*Ku+(1-Fn)*(1-Ku)*g
+
+# URF [ false , true ]
+Fr*Ku+(1-Fr)*Ku+(1-Fr)*(1-Ku)*(1-g)
+Fr*(1-Ku)+(1-Fr)*(1-Ku)*g
+
+# URT [ false , true ]
+(1-Fr)*(1-Ku)*(1-g)
+Fr*Ku+Fr*(1-Ku)+(1-Fr)*Ku+(1-Fr)*(1-Ku)*g
+
+# KNF [ false , true ]
+Fn*Kk+(1-Fn)*Kk+(1-Fn)*(1-Kk)*(1-g)
+Fn*(1-Kk)+(1-Fn)*(1-Kk)*g
+
+# KNT [ false , true ]
+(1-Fn)*(1-Kk)*(1-g)
+Fn*Kk+Fn*(1-Kk)+(1-Fn)*Kk+(1-Fn)*(1-Kk)*g
+
+# KRF [ false , true ]
+Fr*Kk+(1-Fr)*Kk+(1-Fr)*(1-Kk)*(1-g)
+Fr*(1-Kk)+(1-Fr)*(1-Kk)*g
+
+# KRT [ false , true ]
+(1-Fr)*(1-Kk)*(1-g)
+Fr*Kk+Fr*(1-Kk)+(1-Fr)*Kk+(1-Fr)*(1-Kk)*g

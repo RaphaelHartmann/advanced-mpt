@@ -1,0 +1,50 @@
+
+# tree;   cat; eqn
+## unknown, new, and false
+   UNF; false; Fn*Ku
+   UNF;  true; Fn*(1-Ku)
+   UNF; false; (1-Fn)*Ku
+   UNF;  true; (1-Fn)*(1-Ku)*g
+   UNF; false; (1-Fn)*(1-Ku)*(1-g)
+## unknown, new, and true
+   UNT;  true; Fn*Ku
+   UNT;  true; Fn*(1-Ku)
+   UNT;  true; (1-Fn)*Ku
+   UNT;  true; (1-Fn)*(1-Ku)*g
+   UNT; false; (1-Fn)*(1-Ku)*(1-g)
+## unknown, repeated, and false
+   URF; false; Fr*Ku
+   URF;  true; Fr*(1-Ku)
+   URF; false; (1-Fr)*Ku
+   URF;  true; (1-Fr)*(1-Ku)*g
+   URF; false; (1-Fr)*(1-Ku)*(1-g)
+## unknown, repeated, and true
+   URT;  true; Fr*Ku
+   URT;  true; Fr*(1-Ku)
+   URT;  true; (1-Fr)*Ku
+   URT;  true; (1-Fr)*(1-Ku)*g
+   URT; false; (1-Fr)*(1-Ku)*(1-g)
+## known, new, and false
+   KNF; false; Fn*Kk
+   KNF;  true; Fn*(1-Kk)
+   KNF; false; (1-Fn)*Kk
+   KNF;  true; (1-Fn)*(1-Kk)*g
+   KNF; false; (1-Fn)*(1-Kk)*(1-g)
+## known, new, and true
+   KNT;  true; Fn*Kk
+   KNT;  true; Fn*(1-Kk)
+   KNT;  true; (1-Fn)*Kk
+   KNT;  true; (1-Fn)*(1-Kk)*g
+   KNT; false; (1-Fn)*(1-Kk)*(1-g)
+## known, repeated, and false
+   KRF; false; Fr*Kk
+   KRF;  true; Fr*(1-Kk)
+   KRF; false; (1-Fr)*Kk
+   KRF;  true; (1-Fr)*(1-Kk)*g
+   KRF; false; (1-Fr)*(1-Kk)*(1-g)
+## known, repeated, and true
+   KRT;  true; Fr*Kk
+   KRT;  true; Fr*(1-Kk)
+   KRT;  true; (1-Fr)*Kk
+   KRT;  true; (1-Fr)*(1-Kk)*g
+   KRT; false; (1-Fr)*(1-Kk)*(1-g)
